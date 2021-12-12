@@ -1,0 +1,199 @@
+.header {
+    color: white;
+    font-weight: bold;
+}
+
+.headerDiv {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #04AA6D;
+    text-align: center;
+}
+
+input[type=text],
+[type=number], [type=password], [type=month] {
+    padding: 12px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.file {
+    float: left;
+    margin-left: 25%;
+}
+
+.container {
+    padding-top: 1%;
+    text-align: center;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#updateButton {
+    background-color: #138496;
+    border: none;
+    color: White;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #C82333;
+    border: none;
+    color: White;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+#employeesTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#employeesTable td, #employeesTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employeesTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#employeesTable tr:hover {
+    background-color: #ddd;
+}
+
+#employeesTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#attendanceTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#attendanceTable td, #attendanceTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#attendanceTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#attendanceTable tr:hover {
+    background-color: #ddd;
+}
+
+#attendanceTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar {
+    margin-top: 1%;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.logoutBtn {
+    background-color: #C82333;
+    width: 100%;
+    margin-top: 1%;
+    display: inline-block;
+    border: none;
+    color: White;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
