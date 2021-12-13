@@ -24,3 +24,5 @@ while ($row = $result->fetch_assoc()) {
     $body = $row['emp_name'] . " is on leave today";
     mail($row['boss_email'], "Leave Notification", $body);
 }
+
+$dbHandle->close();

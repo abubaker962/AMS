@@ -22,3 +22,5 @@ while ($row = $result->fetch_assoc()) {
     $body = $row['emp_name'] . " please mark your attendance.";
     mail($row['emp_email'], "Reminder for Attendance", $body);
 }
+
+$dbHandle->close();
